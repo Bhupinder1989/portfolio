@@ -1,0 +1,31 @@
+#banner {
+    background:url(/assets/images/banner-img.jpg) no-repeat center top;
+    height: 509px;
+    background-size:cover;
+    overflow: hidden;
+}
+#banner .caption h6 {
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 29px;
+    text-transform: uppercase;
+    margin-bottom: 9px;
+}
+#banner .caption h1 {
+    color: #fff;
+    font-size: 65px;
+    text-transform: uppercase;
+    font-family: 'Anton', sans-serif;
+    font-weight: normal;
+    letter-spacing: 5px;
+    line-height: 60px;
+    margin-bottom: 18px;
+}
+#banner .caption p {
+    color: #fff;
+    font-size: 17px;
+}
+#banner .banner-right-img {
+padding-top:50px;
+text-align: right;
+}

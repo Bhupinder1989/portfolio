@@ -1,0 +1,17 @@
+<header class="page-header">
+    <a href="#" class="logo float-left"><img src="assets/images/logo.png"/></a>
+    <nav class="navmenu float-right">
+      <ul>
+        <li><a routerLink="" routerLinkActive="active">Home</a></li>
+        <li><a routerLink="/about" routerLinkActive="active">About</a></li>
+        <li><a routerLink="/contact" routerLinkActive="active">Contact</a></li>
+        <div class="login float-right">
+          <button mat-button [matMenuTriggerFor]="menu"><img src="assets/images/dots.png"/> <span class="user"><img src="assets/images/user-img.png"/></span></button>
+          <mat-menu #menu="matMenu">
+            <button mat-menu-item>Log In</button>
+            <button mat-menu-item>Sign up</button>
+          </mat-menu>
+        </div>
+      </ul>
+    </nav>
+</header>

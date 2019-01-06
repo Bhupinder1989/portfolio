@@ -1,0 +1,119 @@
+#content {
+    padding: 50px 0 20px;
+    float: left;
+    width: 100%;
+}
+.sidebar {
+    width:30%;
+    float: left;
+    background: #f2f2f2;
+}
+.sidebar h3 {
+    color: #fff;
+    font-size: 28px;
+    background: #fc7a30;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 13px 20px 13px;
+}
+.sidebar ul {
+    list-style: none;
+    margin: 0;
+    padding: 20px 30px;
+}
+.sidebar ul li {
+   display: list-item;
+   font-size: 16px;
+   color: #333;
+   border-bottom: 1px dashed #b7b7b7;
+   padding: 13px 15px;
+}
+.sidebar ul li:before  {
+    content: "";
+    background: url(/assets/images/list-arrow.png) no-repeat;
+    float: left;
+    width: 16px;
+    height: 12px;
+    margin-top: 6px;
+    margin-right: 14px;
+}
+
+.sidebar ul li a {
+    display: list-item;
+    color: #333;
+    cursor: pointer;
+ }
+ .sidebar ul li:last-child {
+     border-bottom: none;
+ }
+ .sidebar-right {
+    width: 65%;
+}   
+.sidebar-right h2 {
+    font-size: 30px;
+    color: #353535;
+    font-weight: 600;
+    padding-bottom: 10px;
+    position: relative;
+}
+.sidebar-right h2:after {
+    border: none;
+    border-bottom: 2px solid #e8e8e8;
+    width: 90px;
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.sidebar-right span {
+    border: none;
+    border-bottom: 2px solid #fc7a30;
+    width: 40px;
+    display: inherit;
+    margin-top: -2px;
+    position: relative;
+    
+}
+.sidebar-right  .project-repeat {
+    width: 100%;
+    margin-top:40px;
+    border-bottom: 1px solid #e8e8e8;
+    padding-bottom: 30px;
+    float: left;
+}
+.sidebar-right  .project-repeat:last-child {
+    border-bottom: none;
+}
+.sidebar-right  .project-repeat .imgbox {
+    border: 10px solid #fff;
+    box-shadow: 0 0px 3px rgba(0,0,0,0.2);
+    margin-right: 25px;
+}
+.sidebar-right  .project-repeat .imgbox img {
+    float: left;
+}
+.sidebar-right  .project-repeat h6 {
+    font-size:22px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.sidebar-right  .project-repeat p {
+    font-size: 16px;
+    margin-bottom: 7px;
+}
+.sidebar-right  .project-repeat .btn-link {
+    background: #fc7a30;
+    border-radius: 50px;
+    color: #fff;
+    padding: 5px 20px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 8px;
+    float: left;
+    border:2px solid #fc7a30;
+    transition:all 0.5s;
+}
+.sidebar-right  .project-repeat .btn-link:hover {
+    background:none;
+    color: #fc7a30;
+}

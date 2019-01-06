@@ -1,0 +1,64 @@
+
+
+
+<!-- Banner start here -->
+<app-banner></app-banner>
+<!-- Banner end here -->
+
+
+<div id="content">
+
+<div class="about-sec">
+  <div class="container">
+      <mat-grid-list cols="2" rowHeight="2:1">
+          <mat-grid-tile>1</mat-grid-tile>
+          <mat-grid-tile>2</mat-grid-tile>
+          <mat-grid-tile>3</mat-grid-tile>
+          <mat-grid-tile>4</mat-grid-tile>
+        </mat-grid-list>
+  </div>
+</div>
+
+
+  <div class="container">
+<!-- Sidebar start here  -->
+<div class="sidebar">
+    <h3>Categories</h3>
+    <ul>
+      <li><a (click)="filter('web-design')">Web Design</a></li>
+      <li><a (click)="filter('web-dev')">Web Development</a></li>
+      <li><a (click)="filter('angular')">Angular</a></li>
+      <li><a (click)="filter('photoshop')">Photoshope</a></li>
+      <li><a (click)="filter('wordpress')">Wordpress</a></li>
+      <li><a (click)="filter('bootstrap')">Bootstrap</a></li>
+    </ul>
+  </div>
+  
+<!-- Sidebar end here  -->
+
+<!-- Right Sidebar start here  -->
+<div class="sidebar-right float-right">
+    <h2>Heading Projects</h2>
+    <span class="border-heading"></span>
+    <div class="project-repeat" *ngFor="let  fds of filterdata">
+      <div class="imgbox float-left">
+        <img src="assets/images/project-img.png" />
+      </div>
+      <h6>{{fds.title}}</h6>
+      <p><strong>Link:</strong>{{fds.link}}</p>
+      <p><strong>Skills:</strong> {{fds.skill}}</p>
+      <p><strong>Description:</strong>{{fds.skill}}</p>
+    <a href="#" class="btn-link">View More</a>
+    </div>
+    
+  </div>
+  
+  </div>
+</div>
+
+
+
+
+
+
+

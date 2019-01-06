@@ -1,0 +1,40 @@
+/* Header Start here  */
+
+.page-header {
+    background: #fff;
+    height: 80px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    padding: 17px;
+    position: fixed;
+    z-index: 9;
+    width:100%;
+    top:0;
+}
+.page-header .logo img {
+    float: left;
+}
+.page-header .navmenu {
+    width: auto;
+}
+.page-header .navmenu ul {
+    margin:0;
+    display: block;
+    padding:0;
+}
+.page-header .navmenu ul li {
+    display: inline-block;
+    font-size: 16px;
+    color: #4a4a4a;
+}
+.page-header .navmenu ul li a {
+    display: inline-block;
+    color: #4a4a4a;
+    padding: 10px 20px;
+}
+.login img {
+    vertical-align: middle;
+    margin-right: 11px;
+}
+.login .user img {
+    margin-right: 0;
+}
